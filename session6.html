@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="session6.css"></link>
+    <style>
+        div1 > p {
+  background-color: yellow;
+}
+ div + p {
+  background-color: yellow;
+}
+h3 ~ p {
+  background-color: yellow;
+}
+    h1{
+        color:red;
+    }
+    p{
+        color: blueviolet;
+    }
+    *{
+        text-align: center;
+    }
+     p:first-child {
+            color: rgb(32, 169, 32);
+        
+        }
+        p:last-child {
+            color: rgb(32, 169, 32);
+        }
+    p:nth-child(5) {
+            color: rgb(32, 169, 32);
+        }
+</style>
+</head>
+
+<body id="body" style="color: black;">
+    <div style="background-color: azure;">
+    <P style="color: blue;background-color:skyblue ;">hello-This is INline</P>
+    <h1>hi-This is Intarnal</h1>
+    <h2 class="name">My name is Thanuja-This is External</h2>
+    <h3 id="h3">kuppam</h3></div>
+    <p>tild tag</p>
+
+
+    <h2>Child Selector</h2>
+
+<p>The child selector (>) selects all elements that are the children of a specified element.</p>
+
+<div1>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section>
+    <!-- not Child but Descendant -->
+    <p>Paragraph 3 in the div (inside a section element).</p>
+  </section>
+  <p>Paragraph 4 in the div.</p>
+</div1>
+
+<p>Paragraph 5. Not in a div.</p>
+<p>Paragraph 6. Not in a div.</p>
+
+<p>The + selector is used to select an element that is directly after another specific element.</p>
+<p>The following example selects the first p element that are placed immediately after div elements:</p>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+</div>
+
+<p>Paragraph 3. After a div.</p>
+<p>Paragraph 4. After a div.</p>
+
+<div>
+  <p>Paragraph 5 in the div.</p>
+  <p>Paragraph 6 in the div.</p>
+</div>
+
+<p>Paragraph 7. After a div.</p>
+<p>Paragraph 8. After a div.</p>
+
+
+<input type="submit">submit</input>
+    <p>This text has a <span style="color: blue;">blue</span> word within it.</p>
+
+    <a href="www.google.com">google</a>
+
+<div>
+        <p>This is the first paragraph.</p>
+        <p>This is the second paragraph.</p>
+        <p>This is the second paragraph.</p>
+        <p>This is the second paragraph.</p>
+        <p>This is the second paragraph.</p>
+        <p>This is the second paragraph.</p>
+        <p>This is the second paragraph.</p>
+        <p>This is the second paragraph.</p>
+    </div>
+
+    <h6>Hello</h6>
+
+    //pseudo elements
+    <h1 id="pseudo">list</h1>
+
+<p id="para">Random list <br> ndwejfnlkejcf</p>
+
+<ul id="fruits">
+    <li id="apple">Apple</li>
+    <li>Grapes</li>
+    <li>mango</li>
+</ul>
+</body>
+</html>
