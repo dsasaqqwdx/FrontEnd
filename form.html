@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+   <style>
+    body{
+        background-color: blue;
+        
+    }
+form{
+    border: 10cm;
+    border-width: 500cm;
+    border-color: rgb(223, 242, 101);
+    background-color: rgb(135, 185, 202);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    border-radius: 2cm;
+    
+}
+input[type="submit"]{
+    background-color: rgb(230, 112, 190);
+}
+input[type="reset"]{
+    background-color: rgb(230, 112, 190);
+}
+#hover:hover{
+    color: blue;
+}
+
+
+
+
+   </style> 
+</head>
+<body>
+<form action="" method="get">
+    <center>
+        <h1 colspan="5" style="color: rgb(199, 47, 153);"><center><b>FORM</b></center></h1>
+        <fieldset>
+        <label  for="name" >Name</label>
+        <input type="text">
+    </fieldset>
+     <fieldset>
+        <label for="password">Password</label>
+        <input type="password">
+        </fieldset>
+
+        <fieldset>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob">
+        </fieldset>
+
+        <fieldset>
+            
+        <label for="Branch">Branch</label>
+        <input type="radio" name="branch">CSM</input>
+        <input type="radio" name="branch">CSE</input>
+        <input type="radio" name="branch">ECE</input>
+        </fieldset>
+
+        <fieldset>
+        <label for="year">year</label>
+        <select name="Year">
+        <option value="1">1st year</option>
+        <option value="2">2nd year</option>
+        <option value="1">3rd year</option>
+        <option value="1">4th year</option>
+        </select>
+        </fieldset>
+
+        
+
+        <fieldset>
+        <label for="phone" >contact</label>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></input>
+        <label for="email">Email</label>
+        <input type="email"></input>
+        
+        </fieldset>
+
+        <fieldset>
+        <input  id="hover" type="submit" >
+        <input id="hover" type="reset">
+        </fieldset>
+        </center>
+    </form>
+    </body>
