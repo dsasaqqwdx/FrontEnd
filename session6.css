@@ -1,0 +1,53 @@
+.name{
+    color:brown;
+}
+#body{
+    background-color: greenyellow;
+}
+#p{
+    color: aqua;
+}
+div h3{
+    color :blueviolet;
+}
+input[type="submit"]{
+    background-color: blue;
+}
+
+a:hover{
+    background-color: aquamarine;
+}
+a:active{
+    background-color: rgb(127, 47, 86);
+}
+a:visited{
+    background-color: rgb(116, 136, 129);
+}
+a:link{
+    background-color: rgb(44, 31, 76);
+}
+
+h6::first-letter{
+    color: blueviolet;
+    background-color: black;
+    font-size: larger;
+    font-style: italic;
+}
+body::selection{
+    color: brown;
+}
+
+#pseudo::first-letter{
+    color: blueviolet;
+    font-size: x-large;
+    font-style: italic;
+}
+#fruits li:before{
+    content:"**";
+}
+#apple:after{
+    content:"**";
+}
+#para::first-line{
+    color: aqua;
+}
